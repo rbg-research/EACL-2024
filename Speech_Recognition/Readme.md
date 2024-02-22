@@ -15,7 +15,7 @@ The dataset used in this study is from the **shared task LT-EDI@2024**. This sha
 
 In this study, speech recognition was performed using two pre-trained state-of-the-art (SOTA) models, Whisper and XLS-R. Both models were trained on the Tamil corpus, during the experiment it is observed that the whisper model outperfomrs XLS-R model. The whisper model's evaluation results were submitted to the competion.
 
-![Whisper Workflow](whisper.png)
+![Whisper Workflow](whisper.drawio.png)
 
 ## Results
 
@@ -33,20 +33,21 @@ The official rank list published by the LT-EDI team can be found in the below li
 
 ## Reqirements
 * Python setup required for execution
-
-    >CUDA 11.8 or higher
-    > Python v3.7 or higher
-    > torch
-    > transformers
-    > accelerate 
-    > soundfile 
-    > librosa 
-    > evaluate
-    > jiwer 
-    > tensorboard 
-    > gradio
-    > matplotlib 
-    > seaborn
+* Python setup required for execution
+  ```python 
+	CUDA 11.8 or higher
+	Python v3.7 or higher
+	torch
+	transformers
+	accelerate 
+	soundfile 
+	librosa 
+	evaluate
+	jiwer 
+	tensorboard 
+	gradio
+	matplotlib 
+	seaborn
 
 
 ## Installation

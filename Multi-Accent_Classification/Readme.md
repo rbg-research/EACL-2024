@@ -14,7 +14,7 @@ In this study, we utilized a subset of the Gujarati Digits ([link](https://githu
 
 The whisper ASR model serves as the foundational framework for the task of classifying accented speech. In this work, we primarily use the encoder component of the model, to which we attached a classification head, excluding the decoder component. Furthermore, we used two of the most popular large language model (LLM) adapters, such as Quantized Low-Rank Adaptation (QLoRA) and Low-Rank Adaptation (LoRA), to make the training and fine-tuning processes efficient and memory friendly.
 
-![Whisper Architecture](2.png)
+![Whisper Architecture](architecture_final.png)
 
 ## Results
 
@@ -30,23 +30,24 @@ The experiments were carried out in a hardware environment equipped with a T4-XL
 
 ## Reqirements
 * Python setup required for execution
-
-    >CUDA 11.8 or higher
-    > Python v3.7 or higher
-    > torch==2.0.2
-    > transformers
-    > peft
-    > bitsandbytes 
-    > datasets 
-    > accelerate 
-    > loralib 
-    > evaluate 
-    > jiwer
-    > matplotlib 
-    > seaborn
+  ```python 
+    CUDA 11.8 or higher
+    Python v3.7 or higher
+    torch==2.0.2
+    transformers
+    peft
+    bitsandbytes 
+    datasets 
+    accelerate 
+    loralib 
+    evaluate 
+    jiwer
+    matplotlib 
+    seaborn
 
 
 ## Installation
 * You can install the the libraries by running the following command.
-	 > pip install -r requirements.txt
+
+  pip install -r requirements.txt
 
