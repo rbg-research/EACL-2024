@@ -30,6 +30,7 @@ The experiments were carried out in a hardware environment equipped with a T4-XL
 
 ## Reqirements
 * Python setup required for execution
+<<<<<<< HEAD
   ```python 
     CUDA 11.8 or higher
     Python v3.7 or higher
@@ -44,6 +45,24 @@ The experiments were carried out in a hardware environment equipped with a T4-XL
     jiwer
     matplotlib 
     seaborn
+=======
+
+* Python setup required for execution
+  ```python 
+	CUDA 11.8 or higher
+	Python v3.7 or higher
+	torch
+	transformers
+	accelerate 
+	soundfile 
+	librosa 
+	evaluate
+	jiwer 
+	tensorboard 
+	gradio
+	matplotlib 
+	seaborn
+>>>>>>> b8a697078d06427827d096d379ff79e86cb1109c
 
 
 ## Installation
