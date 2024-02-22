@@ -1,0 +1,8 @@
+-q git+https://github.com/huggingface/transformers.git@main git+https://github.com/huggingface/peft.git@main
+-q bitsandbytes datasets accelerate loralib evaluate jiwer
+numpy
+torch
+numpy
+torch==2.0.2
+seaborn
+matplotlib

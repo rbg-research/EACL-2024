@@ -1,3 +1,0 @@
-# Multi Accent Speech classification using Whisper and LLM's fine-tuning approaches
-
-The python codes for building an end-to-end few-shot multi-accented speech classification system for recognizing Indian accents have been provided in this repo. It uses the IndicAccentDB, NISP and Gujarati Digits dataasets, where the NISP and Gujarati Digits Datasets are publicly available. The codes provides the infromation about the modefied whisper ASR model for classification task with the LLM's fine-tuning approaches such as LoRA and QLoRA.

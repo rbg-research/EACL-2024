@@ -1,0 +1,11 @@
+torch
+transformers
+accelerate
+soundfile
+librosa
+evaluate
+jiwer
+tensorboard
+gradio
+matplotlib
+seaborn
