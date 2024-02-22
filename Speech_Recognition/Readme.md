@@ -33,7 +33,6 @@ The official rank list published by the LT-EDI team can be found in the below li
 
 ## Reqirements
 * Python setup required for execution
-* Python setup required for execution
   ```python 
 	CUDA 11.8 or higher
 	Python v3.7 or higher
