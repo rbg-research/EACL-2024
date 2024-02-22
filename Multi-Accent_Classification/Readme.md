@@ -28,25 +28,8 @@ The experiments were carried out in a hardware environment equipped with a T4-XL
 | 4 |10%  | 89%| 86%|
 | **2** | **5%** | **92%**| **94%**|
 
-## Reqirements
-* Python setup required for execution
-<<<<<<< HEAD
-  ```python 
-    CUDA 11.8 or higher
-    Python v3.7 or higher
-    torch==2.0.2
-    transformers
-    peft
-    bitsandbytes 
-    datasets 
-    accelerate 
-    loralib 
-    evaluate 
-    jiwer
-    matplotlib 
-    seaborn
-=======
 
+## Requirements
 * Python setup required for execution
   ```python 
 	CUDA 11.8 or higher
@@ -62,7 +45,6 @@ The experiments were carried out in a hardware environment equipped with a T4-XL
 	gradio
 	matplotlib 
 	seaborn
->>>>>>> b8a697078d06427827d096d379ff79e86cb1109c
 
 
 ## Installation
