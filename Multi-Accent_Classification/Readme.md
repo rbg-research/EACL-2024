@@ -31,19 +31,21 @@ The experiments were carried out in a hardware environment equipped with a T4-XL
 ## Reqirements
 * Python setup required for execution
 
-    >CUDA 11.8 or higher
-    > Python v3.7 or higher
-    > torch==2.0.2
-    > transformers
-    > peft
-    > bitsandbytes 
-    > datasets 
-    > accelerate 
-    > loralib 
-    > evaluate 
-    > jiwer
-    > matplotlib 
-    > seaborn
+* Python setup required for execution
+  ```python 
+	CUDA 11.8 or higher
+	Python v3.7 or higher
+	torch
+	transformers
+	accelerate 
+	soundfile 
+	librosa 
+	evaluate
+	jiwer 
+	tensorboard 
+	gradio
+	matplotlib 
+	seaborn
 
 
 ## Installation
