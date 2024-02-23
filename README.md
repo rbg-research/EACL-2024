@@ -3,5 +3,5 @@ Evaluating Large Pre-Trained Speech to Text Model on Low Resource Languages to P
 
 | Methodology | Link |
 |--|--|
-|![Whisper Workflow] Speech_Recognition/whisper.drawio.png)  | [Tamil Vulnerable Speech Recognition](Speech_Recognition) |
-|![Modified Whisper] Multi-Accent_Classification/architecture_final.png| [Multi-Accented Speech Classification Speech Recognition](Multi-Accent_Classification)|
+![Whisper Architecture](Speech_Recognition/whisper.drawio.png.png)  | [Tamil Vulnerable Speech Recognition](Speech_Recognition) |
+|![Modified Whisper](Multi-Accent_Classification/architecture_final.png) | [Multi-Accented Speech Classification Speech Recognition](Multi-Accent_Classification)|
