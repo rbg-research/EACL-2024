@@ -48,5 +48,5 @@ The official rank list published by the LT-EDI team can be found in the below li
 
 
 ## Installation
-* You can install the the libraries by running the following command.
+* You can install the libraries by running the following command.
 	 > pip install -r requirements.txt 
