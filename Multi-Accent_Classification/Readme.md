@@ -48,7 +48,7 @@ The experiments were carried out in a hardware environment equipped with a T4-XL
 
 
 ## Installation
-* You can install the the libraries by running the following command.
+* You can install the libraries by running the following command.
 
   pip install -r requirements.txt
 
